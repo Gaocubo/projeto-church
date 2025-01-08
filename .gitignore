@@ -1,0 +1,16 @@
+# Ignorar ambiente virtual criado pelo Poetry
+.venv/
+
+# Ignorar arquivos de dependências
+poetry.lock
+
+# Ignorar diretórios de build e dist
+build/
+dist/
+
+# Ignorar arquivos de configuração do editor (como VS Code)
+.vscode/
+
+# Ignorar arquivos de cache
+__pycache__/
+*.pyc
