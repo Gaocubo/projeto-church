@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ferreira-data-pipeline"
+version = "0.1.0"
+description = "Projeto para integração com banco de dados MySQL e processamento de dados"
+authors = ["gaocubo <contato@gao3.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pandas = "^2.2.3"
+mysql-connector-python = "^9.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
